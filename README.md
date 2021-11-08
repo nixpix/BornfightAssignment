@@ -5,7 +5,7 @@ The first assignemnt was to exploratory test the Bornfight Games Web Shop at the
 
 The bugs were reported in an instance of Jira accessible here: https://bornfight-zadatak.atlassian.net/jira/software/projects/BZ/boards/1/backlog
 
-![Jira screenshot](https://ibb.co/Wtn0T94)
+![Jira screenshot](https://i.ibb.co/M6nfXTx/chrome-az7u-HDgkrp.png)
 
 They are sorted by priority and separated into bugs and improvements.
 
