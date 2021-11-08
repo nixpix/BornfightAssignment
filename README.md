@@ -3,7 +3,7 @@
 ## Task 1
 The first assignemnt was to exploratory test the Bornfight Games Web Shop at the following URL: https://qa.bornfight.dev/ and prepare a bug report.
 
-The bugs were reported in an instance of Jira accessible here: https://bornfight-zadatak.atlassian.net/jira/software/projects/BZ/boards/1/backlog
+The bugs were reported in an instance of Jira accessible here: https://bornfight-zadatak.atlassian.net/jira/software/projects/BZ/boards/1
 
 ![Jira screenshot](https://i.ibb.co/M6nfXTx/chrome-az7u-HDgkrp.png)
 
