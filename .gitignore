@@ -106,3 +106,5 @@ dist
 mochawesome-report/assets/
 
 mochawesome-report/
+
+cypress/videos/
