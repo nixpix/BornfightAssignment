@@ -27,7 +27,7 @@ The Page Object Model code organising pattern was implemented to maximise the re
 
 ### Setup
 In order to set up the test,  [node.js](https://nodejs.org/en/) needs to be installed. 
-After cloning the repository, position yourseklf inside a shell in the root folder so that the package.json file is on the same level. Run the commnad: npm install to install all dependencies.
+After cloning the repository, position yourseklf inside a shell in the root folder so that the package.json file is on the same level. Run the commnad: `npm install` to install all dependencies.
 
 After that, the test can be run. There are 2 options:
 
