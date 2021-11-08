@@ -5,6 +5,10 @@ export class OrderFormPage {
     return cy.visit(this.url);
   }
 
+  csrfElement() {
+    return cy.get('input[name="_csrf"]');
+  }
+
   breadcrumbNavigation() {
     return cy.get("body > div > div > ul");
   }
@@ -26,7 +30,7 @@ export class OrderFormPage {
   }
 
   priceText() {
-    return cy.get("#price");
+    return cy.get('#price')
   }
 
   addToCartAlert() {
@@ -49,5 +53,13 @@ export class OrderFormPage {
 
   clickAddToCartButton() {
     return this.addToCartButton().click();
+  }
+
+  getCsfrValue() {
+    this.csrfElement()
+      .invoke("val")
+      .then((val) => {
+        cy.wrap(val).as("csfrValue");
+      });
   }
 }
