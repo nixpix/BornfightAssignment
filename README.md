@@ -4,6 +4,7 @@
 The first assignemnt was to exploratory test the Bornfight Games Web Shop at the following URL: https://qa.bornfight.dev/ and prepare a bug report.
 
 The bugs were reported in an instance of Jira accessible here: https://bornfight-zadatak.atlassian.net/jira/software/projects/BZ/boards/1/backlog
+
 They are sorted by priority and separated into bugs and improvements.
 
 For the majority of the testing Chrome was used. For compatibility testing Browserstack was used and most popular devices were checked:
