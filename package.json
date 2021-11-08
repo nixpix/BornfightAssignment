@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "cypress open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress-open": "cypress open",
+    "test": "cypress run --browser chrome --headed --reporter mochawesome",
+    "test-headless": "cypress run --browser chrome --headless --reporter mochawesome"
   },
   "repository": {
     "type": "git",
